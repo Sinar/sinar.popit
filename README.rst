@@ -6,19 +6,21 @@
 sinar.popit
 ===========
 
-Tell me what your product does
+Useful Plone extensions and integration to Sinar Project Popit API
 
 Features
 --------
 
-- Can be bullet points
+- Popit Person ID lookup
+- Popit Post ID lookup
+- Popit Membership ID lookup
 
 
 Examples
 --------
 
 This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
+- mymp.undimsia.org
 
 
 Documentation
@@ -30,10 +32,7 @@ Full documentation for end users can be found in the "docs" folder, and is also 
 Translations
 ------------
 
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
-
+Translations pending..
 
 Installation
 ------------
@@ -54,19 +53,16 @@ and then running ``bin/buildout``
 Contribute
 ----------
 
-- Issue Tracker: https://github.com/collective/sinar.popit/issues
-- Source Code: https://github.com/collective/sinar.popit
-- Documentation: https://docs.plone.org/foo/bar
-
+- Issue Tracker: https://github.com/sinar/sinar.popit/issues
+- Source Code: https://github.com/sinar/sinar.popit
 
 Support
 -------
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@example.com
-
+If you are having issues, please let us know by filing ticket at
+the issue tracker above
 
 License
 -------
 
-The project is licensed under the GPLv2.
+The project is licensed under the AGPL

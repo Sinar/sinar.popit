@@ -1,0 +1,20 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="sinar.popit">
+
+    <include package="plone.behavior" file="meta.zcml" />
+
+    <plone:behavior
+        title="Popit Person"
+        description="Popit Person lookup field"
+        provides=".behaviors.IPopitPerson"
+        />
+
+    <plone:behavior
+        title="Popit Post"
+        description="Popit Post lookup field"
+        provides=".behaviors.IPopitPost"
+        />
+
+</configure>
